@@ -1,0 +1,142 @@
+[System]
+Name='consumption_JUN_train.csv'
+Ninputs=11
+Noutputs=1
+Nrules=9
+Nexceptions=0
+Conjunction='min'
+MissingValues='mean'
+
+[Input1]
+Active='yes'
+Name='Var1'
+Range=[       0.026 ,       0.865 ]
+NMFs=4
+MF1='MF1','SemiTrapezoidalInf',[       0.026 ,       0.121 ,       0.298 ]
+MF2='MF2','triangular',[       0.121 ,       0.298 ,       0.527 ]
+MF3='MF3','triangular',[       0.298 ,       0.527 ,       0.865 ]
+MF4='MF4','SemiTrapezoidalSup',[       0.527 ,       0.865 ,       0.865 ]
+
+[Input2]
+Active='yes'
+Name='Var2'
+Range=[       0.006 ,       0.835 ]
+NMFs=4
+MF1='MF1','SemiTrapezoidalInf',[       0.006 ,       0.117 ,       0.276 ]
+MF2='MF2','triangular',[       0.117 ,       0.276 ,       0.437 ]
+MF3='MF3','triangular',[       0.276 ,       0.437 ,       0.758 ]
+MF4='MF4','SemiTrapezoidalSup',[       0.437 ,       0.758 ,       0.835 ]
+
+[Input3]
+Active='yes'
+Name='Var3'
+Range=[       0.012 ,       0.722 ]
+NMFs=4
+MF1='MF1','SemiTrapezoidalInf',[       0.012 ,       0.114 ,       0.252 ]
+MF2='MF2','triangular',[       0.114 ,       0.252 ,       0.435 ]
+MF3='MF3','triangular',[       0.252 ,       0.435 ,       0.688 ]
+MF4='MF4','SemiTrapezoidalSup',[       0.435 ,       0.688 ,       0.722 ]
+
+[Input4]
+Active='yes'
+Name='Var4'
+Range=[       0.007 ,       0.763 ]
+NMFs=4
+MF1='MF1','SemiTrapezoidalInf',[       0.007 ,       0.120 ,       0.263 ]
+MF2='MF2','triangular',[       0.120 ,       0.263 ,       0.464 ]
+MF3='MF3','triangular',[       0.263 ,       0.464 ,       0.683 ]
+MF4='MF4','SemiTrapezoidalSup',[       0.464 ,       0.683 ,       0.763 ]
+
+[Input5]
+Active='yes'
+Name='Var5'
+Range=[       0.000 ,       1.050 ]
+NMFs=4
+MF1='MF1','SemiTrapezoidalInf',[       0.000 ,       0.139 ,       0.363 ]
+MF2='MF2','triangular',[       0.139 ,       0.363 ,       0.633 ]
+MF3='MF3','triangular',[       0.363 ,       0.633 ,       0.979 ]
+MF4='MF4','SemiTrapezoidalSup',[       0.633 ,       0.979 ,       1.050 ]
+
+[Input6]
+Active='yes'
+Name='Var6'
+Range=[       0.007 ,       1.163 ]
+NMFs=4
+MF1='MF1','SemiTrapezoidalInf',[       0.007 ,       0.152 ,       0.405 ]
+MF2='MF2','triangular',[       0.152 ,       0.405 ,       0.729 ]
+MF3='MF3','triangular',[       0.405 ,       0.729 ,       1.121 ]
+MF4='MF4','SemiTrapezoidalSup',[       0.729 ,       1.121 ,       1.163 ]
+
+[Input7]
+Active='yes'
+Name='Var7'
+Range=[       0.005 ,       1.286 ]
+NMFs=4
+MF1='MF1','SemiTrapezoidalInf',[       0.005 ,       0.173 ,       0.470 ]
+MF2='MF2','triangular',[       0.173 ,       0.470 ,       0.723 ]
+MF3='MF3','triangular',[       0.470 ,       0.723 ,       1.180 ]
+MF4='MF4','SemiTrapezoidalSup',[       0.723 ,       1.180 ,       1.286 ]
+
+[Input8]
+Active='yes'
+Name='Var8'
+Range=[       0.003 ,       1.116 ]
+NMFs=4
+MF1='MF1','SemiTrapezoidalInf',[       0.003 ,       0.155 ,       0.393 ]
+MF2='MF2','triangular',[       0.155 ,       0.393 ,       0.665 ]
+MF3='MF3','triangular',[       0.393 ,       0.665 ,       1.061 ]
+MF4='MF4','SemiTrapezoidalSup',[       0.665 ,       1.061 ,       1.116 ]
+
+[Input9]
+Active='yes'
+Name='Var9'
+Range=[       0.001 ,       1.029 ]
+NMFs=4
+MF1='MF1','SemiTrapezoidalInf',[       0.001 ,       0.139 ,       0.349 ]
+MF2='MF2','triangular',[       0.139 ,       0.349 ,       0.600 ]
+MF3='MF3','triangular',[       0.349 ,       0.600 ,       0.929 ]
+MF4='MF4','SemiTrapezoidalSup',[       0.600 ,       0.929 ,       1.029 ]
+
+[Input10]
+Active='yes'
+Name='Var10'
+Range=[       0.036 ,       0.830 ]
+NMFs=4
+MF1='MF1','SemiTrapezoidalInf',[       0.036 ,       0.130 ,       0.307 ]
+MF2='MF2','triangular',[       0.130 ,       0.307 ,       0.512 ]
+MF3='MF3','triangular',[       0.307 ,       0.512 ,       0.741 ]
+MF4='MF4','SemiTrapezoidalSup',[       0.512 ,       0.741 ,       0.830 ]
+
+[Input11]
+Active='yes'
+Name='Var11'
+Range=[       0.037 ,       0.864 ]
+NMFs=4
+MF1='MF1','SemiTrapezoidalInf',[       0.037 ,       0.128 ,       0.309 ]
+MF2='MF2','triangular',[       0.128 ,       0.309 ,       0.568 ]
+MF3='MF3','triangular',[       0.309 ,       0.568 ,       0.864 ]
+MF4='MF4','SemiTrapezoidalSup',[       0.568 ,       0.864 ,       0.864 ]
+
+[Output1]
+Nature='crisp'
+Defuzzification='sugeno'
+Disjunction='max'
+DefaultValue=      -1.000 
+Classif='no' 
+Active='yes'
+Name='Output0'
+Range=[       0.012 ,       0.771 ]
+NMFs=0
+
+[Rules]
+2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,        0.242 ,
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,        0.092 ,
+4, 4, 4, 4, 3, 3, 3, 2, 3, 3, 4,        0.000 ,
+3, 4, 4, 4, 3, 3, 3, 3, 4, 4, 3,        0.000 ,
+3, 3, 3, 3, 2, 2, 2, 2, 2, 3, 2,        0.533 ,
+3, 3, 2, 2, 1, 1, 1, 1, 1, 1, 2,        0.725 ,
+1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1,        0.248 ,
+2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3,        0.262 ,
+2, 2, 3, 4, 4, 4, 4, 4, 4, 4, 3,        0.000 ,
+
+[Exceptions]

@@ -1,0 +1,158 @@
+[System]
+Name='consumption_JAN_train.csv'
+Ninputs=11
+Noutputs=1
+Nrules=33
+Nexceptions=0
+Conjunction='min'
+MissingValues='random'
+
+[Input1]
+Active='yes'
+Name='Feb'
+Range=[       0.003 ,       1.116 ]
+NMFs=3
+MF1='MF1','SemiTrapezoidalInf',[       0.003 ,       0.142 ,       0.195 ]
+MF2='MF2','triangular',[       0.142 ,       0.195 ,       0.261 ]
+MF3='MF3','SemiTrapezoidalSup',[       0.195 ,       0.261 ,       1.116 ]
+
+[Input2]
+Active='yes'
+Name='Mar'
+Range=[       0.001 ,       1.029 ]
+NMFs=3
+MF1='MF1','SemiTrapezoidalInf',[       0.001 ,       0.130 ,       0.171 ]
+MF2='MF2','triangular',[       0.130 ,       0.171 ,       0.233 ]
+MF3='MF3','SemiTrapezoidalSup',[       0.171 ,       0.233 ,       1.029 ]
+
+[Input3]
+Active='yes'
+Name='Apr'
+Range=[       0.036 ,       0.830 ]
+NMFs=3
+MF1='MF1','SemiTrapezoidalInf',[       0.036 ,       0.126 ,       0.165 ]
+MF2='MF2','triangular',[       0.126 ,       0.165 ,       0.210 ]
+MF3='MF3','SemiTrapezoidalSup',[       0.165 ,       0.210 ,       0.830 ]
+
+[Input4]
+Active='yes'
+Name='May'
+Range=[       0.037 ,       0.864 ]
+NMFs=3
+MF1='MF1','SemiTrapezoidalInf',[       0.037 ,       0.104 ,       0.140 ]
+MF2='MF2','triangular',[       0.104 ,       0.140 ,       0.182 ]
+MF3='MF3','SemiTrapezoidalSup',[       0.140 ,       0.182 ,       0.864 ]
+
+[Input5]
+Active='yes'
+Name='Jun'
+Range=[       0.012 ,       0.771 ]
+NMFs=3
+MF1='MF1','SemiTrapezoidalInf',[       0.012 ,       0.101 ,       0.132 ]
+MF2='MF2','triangular',[       0.101 ,       0.132 ,       0.172 ]
+MF3='MF3','SemiTrapezoidalSup',[       0.132 ,       0.172 ,       0.771 ]
+
+[Input6]
+Active='yes'
+Name='Jul'
+Range=[       0.026 ,       0.865 ]
+NMFs=3
+MF1='MF1','SemiTrapezoidalInf',[       0.026 ,       0.101 ,       0.130 ]
+MF2='MF2','triangular',[       0.101 ,       0.130 ,       0.167 ]
+MF3='MF3','SemiTrapezoidalSup',[       0.130 ,       0.167 ,       0.865 ]
+
+[Input7]
+Active='yes'
+Name='Aug'
+Range=[       0.006 ,       0.835 ]
+NMFs=3
+MF1='MF1','SemiTrapezoidalInf',[       0.006 ,       0.095 ,       0.123 ]
+MF2='MF2','triangular',[       0.095 ,       0.123 ,       0.164 ]
+MF3='MF3','SemiTrapezoidalSup',[       0.123 ,       0.164 ,       0.835 ]
+
+[Input8]
+Active='yes'
+Name='Sep'
+Range=[       0.012 ,       0.722 ]
+NMFs=3
+MF1='MF1','SemiTrapezoidalInf',[       0.012 ,       0.105 ,       0.137 ]
+MF2='MF2','triangular',[       0.105 ,       0.137 ,       0.171 ]
+MF3='MF3','SemiTrapezoidalSup',[       0.137 ,       0.171 ,       0.722 ]
+
+[Input9]
+Active='yes'
+Name='Oct'
+Range=[       0.007 ,       0.763 ]
+NMFs=3
+MF1='MF1','SemiTrapezoidalInf',[       0.007 ,       0.123 ,       0.154 ]
+MF2='MF2','triangular',[       0.123 ,       0.154 ,       0.195 ]
+MF3='MF3','SemiTrapezoidalSup',[       0.154 ,       0.195 ,       0.763 ]
+
+[Input10]
+Active='yes'
+Name='Nov'
+Range=[       0.000 ,       1.050 ]
+NMFs=3
+MF1='MF1','SemiTrapezoidalInf',[       0.000 ,       0.129 ,       0.165 ]
+MF2='MF2','triangular',[       0.129 ,       0.165 ,       0.228 ]
+MF3='MF3','SemiTrapezoidalSup',[       0.165 ,       0.228 ,       1.050 ]
+
+[Input11]
+Active='yes'
+Name='Dec'
+Range=[       0.007 ,       1.163 ]
+NMFs=3
+MF1='MF1','SemiTrapezoidalInf',[       0.007 ,       0.139 ,       0.184 ]
+MF2='MF2','triangular',[       0.139 ,       0.184 ,       0.255 ]
+MF3='MF3','SemiTrapezoidalSup',[       0.184 ,       0.255 ,       1.163 ]
+
+[Output1]
+Nature='fuzzy'
+Defuzzification='MeanMax'
+Disjunction='sum'
+DefaultValue=      -1.000 
+Classif='no' 
+Active='yes'
+Name='Jan'
+Range=[       0.005 ,       1.286 ]
+NMFs=3
+MF1='MF1','SemiTrapezoidalInf',[      -0.088 ,       0.098 ,       0.243 ]
+MF2='MF2','triangular',[       0.098 ,       0.243 ,       1.164 ]
+MF3='MF3','SemiTrapezoidalSup',[       0.243 ,       1.164 ,       1.407 ]
+
+[Rules]
+1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0,        1.000 ,
+1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 1,        1.000 ,
+1, 0, 0, 2, 2, 0, 0, 1, 0, 0, 1,        2.000 ,
+1, 0, 0, 2, 2, 0, 0, 2, 0, 0, 1,        1.000 ,
+1, 0, 0, 2, 2, 0, 0, 3, 0, 0, 1,        1.000 ,
+1, 0, 0, 3, 2, 0, 0, 0, 0, 0, 1,        1.000 ,
+1, 0, 1, 0, 2, 0, 0, 0, 0, 1, 2,        1.000 ,
+1, 0, 2, 0, 2, 0, 0, 0, 0, 1, 2,        1.000 ,
+1, 0, 3, 0, 2, 0, 0, 0, 0, 1, 2,        1.000 ,
+1, 0, 0, 0, 2, 0, 0, 0, 0, 2, 2,        2.000 ,
+1, 0, 0, 0, 2, 0, 0, 0, 0, 3, 2,        1.000 ,
+1, 0, 0, 0, 2, 0, 0, 0, 0, 0, 3,        1.000 ,
+1, 1, 0, 0, 3, 0, 0, 0, 0, 0, 0,        1.000 ,
+1, 2, 0, 0, 3, 0, 0, 0, 0, 0, 1,        1.000 ,
+1, 2, 0, 0, 3, 0, 0, 0, 0, 0, 2,        1.000 ,
+1, 2, 0, 0, 3, 0, 0, 0, 0, 0, 3,        1.000 ,
+1, 3, 0, 0, 3, 0, 0, 0, 0, 0, 0,        1.000 ,
+2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1,        2.000 ,
+2, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1,        2.000 ,
+2, 0, 0, 0, 3, 0, 0, 0, 0, 0, 1,        2.000 ,
+2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,        2.000 ,
+2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 3,        2.000 ,
+2, 0, 2, 0, 0, 0, 1, 0, 0, 0, 3,        2.000 ,
+2, 0, 2, 0, 0, 0, 2, 0, 0, 0, 3,        2.000 ,
+2, 0, 2, 0, 0, 0, 3, 0, 0, 0, 3,        2.000 ,
+2, 0, 3, 0, 0, 0, 1, 0, 0, 0, 3,        2.000 ,
+2, 0, 3, 0, 0, 0, 2, 0, 0, 0, 3,        2.000 ,
+2, 0, 3, 0, 0, 0, 3, 0, 0, 0, 3,        2.000 ,
+3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,        2.000 ,
+3, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0,        2.000 ,
+3, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0,        2.000 ,
+3, 2, 0, 0, 0, 0, 0, 3, 0, 0, 0,        2.000 ,
+3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0,        2.000 ,
+
+[Exceptions]

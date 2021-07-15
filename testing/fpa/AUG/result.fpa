@@ -1,0 +1,2 @@
+ Name  &  PI  &   CI  &   maxE  & In 1 & In 2 & In 3 & In 4 & In 5 & In 6 & In 7 & In 8 & In 9 & In 10 & In 11 & Out 1 &  Out  &   maxR  &   nR  &   maxVr &   meanVr &  nVar &  meanMF & (class/MF)  &  nRc  & (class/MF)  &  nRc  & (class/MF)  &  nRc  
+consumption_AUG_train.csv & 0.398761 & 0.681481 & 0.685810 & 3 & 3 & 3 & 3 & 3 & 3 & 3 & 3 & 3 & 3 & 3 & 3 & 1 & 177147 & 24 & 11 & 11.000000 & 11 & 3.000000 & (1.000000) & 2 & (2.000000) & 20 & (3.000000) & 2 

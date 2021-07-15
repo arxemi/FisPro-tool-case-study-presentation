@@ -1,0 +1,2 @@
+ Name  &  PI  &   CI  &   maxE  & In 1 & In 2 & In 3 & In 4 & In 5 & In 6 & In 7 & In 8 & In 9 & In 10 & In 11 & Out 1 &  Out  &   maxR  &   nR  &   maxVr &   meanVr &  nVar &  meanMF & (class/MF)  &  nRc  & (class/MF)  &  nRc  & (class/MF)  &  nRc  
+consumption_APR_train.csv & 0.098482 & 0.688889 & -0.422378 & 3 & 3 & 3 & 3 & 3 & 3 & 3 & 3 & 3 & 3 & 3 & 3 & 1 & 177147 & 39 & 11 & 11.000000 & 11 & 3.000000 & (1.000000) & 17 & (2.000000) & 22 & (3.000000) & 0 
