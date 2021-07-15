@@ -1,4 +1,4 @@
-## Analisi dei dati energetici con FisPro ##
+## Analisi dei consumi energetici con FisPro ##
 
 ### Presentazione del software *Fuzzy Inference System Professional* (FisPro)
 
