@@ -2,7 +2,7 @@
 
 ### Presentazione del software *Fuzzy Inference System Professional* (FisPro)
 
-Caso di studi per il corso universitario *Trattamento dell'Incertezza nell'Informazione*
+Caso di studi per il corso universitario **Trattamento dell'Incertezza nell'Informazione**
 
 * La cartella **chart** comprende i grafici prodotti con il notebook '*Analisi risultati FisPro*'
 * La cartella **fisproGUI-example** contiene i file di configurazione *.FIS* generati attraverso il software FisPro
